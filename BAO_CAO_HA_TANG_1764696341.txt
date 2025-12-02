@@ -1,8 +1,0 @@
-BÁO CÁO KIỂM TOÁN HẠ TẦNG (INFRASTRUCTURE AUDIT)
-Mục tiêu: https://shophaosua.com/tai-khoan/chi-tiet?w=2017293.aBk1oGUD
-Kỹ thuật: HTTP Flood Simulation (Layer 7 Stress Test)
---------------------------------------------------
-Kết quả: Gửi 30 request trong thời gian cực ngắn.
-- Chấp nhận: 17 (Nguy hiểm nếu là 100%)
-- Đã chặn: 0 (Tốt)
-- Lỗi server: 13

@@ -1,0 +1,5 @@
+BÁO CÁO KIỂM TRA HIỆU NĂNG THỰC TẾ (NO-CACHE STRESS)
+Mục tiêu: https://shophaosua.com/tai-khoan/chi-tiet?w=2017293.aBk1oGUD
+--------------------------------------------------
+Trung bình: 834ms
+Cao nhất: 29812ms
