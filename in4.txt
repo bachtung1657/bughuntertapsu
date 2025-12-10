@@ -1,0 +1,27 @@
+# 🛡️ BỘ CÔNG CỤ AN NINH MẠNG & KIỂM THỬ BẢO MẬT (PEN-TEST TOOLKIT)
+> **Cảnh báo:** Chỉ sử dụng cho mục đích học tập và kiểm thử trên hệ thống được phép. Nghiêm cấm mọi hành vi phá hoại.
+
+## 📂 DANH SÁCH CÔNG CỤ (14 MODULES)
+
+### 🟢 Giai Đoạn 1: Trinh Sát & Thu Thập (Reconnaissance)
+*   **`main.py`**: Kiểm tra thông tin mạng cơ bản (IP, MAC, Tốc độ, Vị trí).
+*   **`main2.py`**: Quét sơ bộ (Port Scan, Soi Header, Tìm Subdomain, DNS).
+*   **`main3.py`**: Trinh sát chuyên sâu 10 kỹ năng (SSL, CMS, Email, WAF, Admin Finder...).
+
+### 🟡 Giai Đoạn 2: Đánh Giá Lỗ Hổng (Vulnerability Assessment)
+*   **`main4.py`**: Tìm lỗi bảo mật phổ biến (SQLi, XSS, Lộ file nhạy cảm, Clickjacking) và đề xuất giải pháp.
+*   **`main5.py`**: Tự động tạo mã nguồn (Code) để vá lỗ hổng cho lập trình viên (Remediation).
+
+### 🟠 Giai Đoạn 3: Mô Phỏng & Bằng Chứng (Proof of Concept)
+*   **`main6.py`**: Viết kịch bản mô phỏng hậu quả tấn công (Mất dữ liệu, Mất tiền) để cảnh báo chủ web.
+*   **`main7.py`**: Tạo file HTML hướng dẫn khách hàng tự tay kiểm tra lỗ hổng (XSS/SQLi) trên máy họ.
+*   **`main7.py`**: Ghi lại bằng chứng pháp chứng (Forensic Log) khi server thực sự bị khai thác.
+
+### 🔴 Giai Đoạn 4: Tấn Công Nâng Cao (Advanced Exploitation)
+*   **`main8.py`**: Soi mã nguồn Frontend (SPA/Nuxt.js) tìm dữ liệu/mật khẩu bị ẩn đi.
+*   **`main9.py`**: Kiểm tra khả năng chịu tải (Stress Test) và hệ thống chống Spam (Rate Limit).
+*   **`main10.py`**: Giả lập tấn công đồng bộ (Race Condition) và vượt tường lửa bằng IP giả (Bypass WAF).
+*   **`main11.py`**: Tấn công tài nguyên (Cache Busting) để chứng minh server bị lag/treo khi chịu tải thật.
+*   **`main12.py`**: Tấn công Database mù (Blind SQLi Time-based) - Điều khiển server "ngủ" để chứng minh quyền kiểm soát.
+*   **`main13.py`**: Đào bới mã nguồn Javascript (.js) tìm API Key và đường dẫn Admin ẩn.
+*   **`main14.py`**: Dò quét API ẩn và kiểm tra lỗi xem trộm đơn hàng người khác (IDOR).

@@ -1,0 +1,6 @@
+BÁO CÁO BẢO MẬT: BYPASS & LOGIC BREAKING
+Mục tiêu: https://shophaosua.com/tai-khoan/chi-tiet?w=2017293.aBk1oGUD
+Kỹ thuật: IP Spoofing + Thread Barrier Synchronization
+--------------------------------------------------
+Kết quả Bypass: 50/50 request lọt qua.
+Phản hồi hệ thống đồng nhất.

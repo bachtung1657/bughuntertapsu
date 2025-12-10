@@ -1,0 +1,16 @@
+BÁO CÁO LỖ HỔNG API & IDOR
+==========================
+Hidden Endpoint: https://shophaosua.com/admin
+Hidden Endpoint: https://shophaosua.com/administrator
+Hidden Endpoint: https://shophaosua.com/quan-tri
+Hidden Endpoint: https://shophaosua.com/login
+Hidden Endpoint: https://shophaosua.com/dashboard
+Hidden Endpoint: https://shophaosua.com/api/users
+Hidden Endpoint: https://shophaosua.com/api/orders
+Hidden Endpoint: https://shophaosua.com/info
+Hidden Endpoint: https://shophaosua.com/phpinfo.php
+Hidden Endpoint: https://shophaosua.com/.env
+Hidden Endpoint: https://shophaosua.com/config.json
+Hidden Endpoint: https://shophaosua.com/backup.sql
+Hidden Endpoint: https://shophaosua.com/database.sql
+Hidden Endpoint: https://shophaosua.com/log

